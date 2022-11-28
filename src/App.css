@@ -1,16 +1,28 @@
 .App {
   text-align: center;
 }
+#quote-box{
+  padding: 35px;
+  background-color: white;
+  border-radius: 10px;
+  border-width: 10px;
+  color:black;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+}
+#author{
+  text-align: end;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#tweet-quote{
+  float: left;
+  padding: 10px;
+  text-decoration: none;
+}
+#new-quote{
+  float:right;
+  color: whitesmoke;
+  border-radius: 8px;
+  padding: 5px;
 }
 
 .App-header {
@@ -22,17 +34,4 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
